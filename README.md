@@ -1,4 +1,3 @@
-di-interop
-==========
+# di-interop
 
 Dependency injection containers interoperability

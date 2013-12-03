@@ -1,0 +1,11 @@
+{
+    "name": "interop/di",
+    "type": "library",
+    "description": "Dependency injection containers interoperability",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+            "Interop\\DI": "src/"
+        }
+    }
+}
