@@ -8,6 +8,6 @@ namespace Interop\DI\Exception;
 /**
  * No entry was found in the container.
  */
-class NotFoundException extends \Exception
+interface NotFoundException
 {
 }
