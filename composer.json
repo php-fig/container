@@ -1,5 +1,5 @@
 {
-    "name": "interop/di",
+    "name": "di-interop/di",
     "type": "library",
     "description": "Dependency injection containers interoperability",
     "license": "MIT",
