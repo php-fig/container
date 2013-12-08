@@ -1,4 +1,4 @@
-# Dependency injection containers interoperability
+# DI containers interoperability
 
 The "di-interop" project tries to bring interoperability between DI containers through discussions and trial.
 
