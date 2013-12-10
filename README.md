@@ -19,6 +19,14 @@ You can install this package through Composer:
 
 Bear in mind that minor versions (e.g. 1.*) have no BC breaks, however major versions do have BC breaks.
 
+## Available interfaces
+
+*None*
+
+## Interfaces in the works
+
+- [`ReadableContainerInterface`](master/src/Interop/DI/ReadableContainerInterface.php): Join [the discussions](https://github.com/di-interop/di-interop/issues?labels=ReadableContainerInterface&page=1&state=open)
+
 ## Workflow
 
 Everyone is welcome to join and contribute.
