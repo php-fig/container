@@ -25,7 +25,7 @@ Bear in mind that minor versions (e.g. 1.*) have no BC breaks, however major ver
 
 ## Interfaces in the works
 
-- [`ReadableContainerInterface`](master/src/Interop/DI/ReadableContainerInterface.php): Join [the discussions](https://github.com/di-interop/di-interop/issues?labels=ReadableContainerInterface&page=1&state=open)
+- [`ReadableContainerInterface`](src/Interop/DI/ReadableContainerInterface.php): Join [the discussions](https://github.com/di-interop/di-interop/issues?labels=ReadableContainerInterface&page=1&state=open)
 
 ## Workflow
 
