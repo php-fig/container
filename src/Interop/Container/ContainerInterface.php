@@ -10,25 +10,25 @@ use Interop\Container\Exception\NotFoundException;
 /**
  * Describes the interface of a container that exposes methods to read its entries.
  */
-interface ReadableContainerInterface
+interface ContainerInterface
 {
     /**
      * Finds an entry of the container by its identifier and returns it.
      *
-     * @param string $identifier Identifier of the entry to look for.
+     * @param string $id Identifier of the entry to look for.
      *
      * @throws NotFoundException No entry was found for this identifier.
      * @return mixed Entry.
      */
-    public function get($identifier);
+    public function get($id);
 
     /**
      * Returns true if the container can return an entry for the given identifier.
      * Returns false otherwise.
      *
-     * @param string $identifier Identifier of the entry to look for.
+     * @param string $id Identifier of the entry to look for.
      *
      * @return boolean
      */
-    public function has($identifier);
+    public function has($id);
 }
