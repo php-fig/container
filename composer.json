@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-0": {
-            "Interop\\Container": "src/"
+            "Interop\\Container\\": "src/"
         }
     }
 }
