@@ -1,11 +1,11 @@
 {
     "name": "container-interop/container-interop",
     "type": "library",
-    "description": "Dependency injection containers interoperability",
+    "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
     "license": "MIT",
     "autoload": {
-        "psr-0": {
-            "Interop\\Container\\": "src/"
+        "psr-4": {
+            "Interop\\Container\\": "src/Interop/Container/"
         }
     }
 }
