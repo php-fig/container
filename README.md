@@ -37,7 +37,7 @@ Describes the interface of a container that exposes methods to read its entries.
 
 ### Proposed
 
-- `ParentAwareContainerInterface`: Join [the discussions](https://github.com/container-interop/container-interop/issues?labels=ParentAwareContainerInterface&milestone=&page=1&state=open)
+- `ParentAwareContainerInterface`: Join [the discussions](https://github.com/container-interop/container-interop/issues?labels=ParentAwareContainerInterface)
 
 ## Workflow
 
