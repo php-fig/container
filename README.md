@@ -1,5 +1,7 @@
 # Container Interoperability
 
+[![Latest Stable Version](https://poser.pugx.org/container-interop/container-interop/v/stable.png)](https://packagist.org/packages/container-interop/container-interop)
+
 The "container-interop" project attempts to achieve the interoperability of *container* objects (service locators,
 dependency injection containers, etc.) through discussions and trial, and by establishing common interfaces.
 
@@ -19,7 +21,7 @@ You can install this package through Composer:
 ```json
 {
     "require": {
-        "container-interop/container-interop": "1.*"
+        "container-interop/container-interop": "~1.0"
     }
 }
 ```
