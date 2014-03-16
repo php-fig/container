@@ -24,18 +24,20 @@ You can install this package through Composer:
 }
 ```
 
-The packages adheres to the [SemVer](http://semver.org/) specification, and there will be full backward compatibilty
+The packages adheres to the [SemVer](http://semver.org/) specification, and there will be full backward compatibility
 between minor versions.
 
 ## Interfaces
 
 ### Available
 
-*None*
+- [`ContainerInterface`](src/Interop/Container/ContainerInterface.php).
+[Meta Document](docs/ContainerInterface.md).
+Describes the interface of a container that exposes methods to read its entries.
 
 ### Proposed
 
-- [`ContainerInterface`](src/Interop/Container/ContainerInterface.php): Join [the discussions](https://github.com/container-interop/container-interop/issues?labels=ContainerInterface&page=1&state=open)
+- `ParentAwareContainerInterface`: Join [the discussions](https://github.com/container-interop/container-interop/issues?labels=ParentAwareContainerInterface)
 
 ## Workflow
 
