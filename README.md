@@ -41,6 +41,10 @@ Describes the interface of a container that exposes methods to read its entries.
 
 - `ParentAwareContainerInterface`: Join [the discussions](https://github.com/container-interop/container-interop/issues?labels=ParentAwareContainerInterface)
 
+## Compatible projects
+
+- [Acclimate](https://github.com/jeremeamia/acclimate-container)
+
 ## Workflow
 
 Everyone is welcome to join and contribute.
