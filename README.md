@@ -44,6 +44,7 @@ Describes the interface of a container that exposes methods to read its entries.
 ## Compatible projects
 
 - [Acclimate](https://github.com/jeremeamia/acclimate-container)
+- [PHP-DI](http://php-di.org)
 
 ## Workflow
 
