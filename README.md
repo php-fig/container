@@ -44,6 +44,7 @@ Describes the interface of a container that exposes methods to read its entries.
 ## Compatible projects
 
 - [Acclimate](https://github.com/jeremeamia/acclimate-container)
+- [dcp-di](https://github.com/estelsmith/dcp-di)
 - [PHP-DI](http://php-di.org)
 - [XStatic](https://github.com/jeremeamia/xstatic)
 
