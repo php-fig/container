@@ -39,15 +39,29 @@ Describes the interface of a container that exposes methods to read its entries.
 
 ### Proposed
 
-- `ParentAwareContainerInterface`: Join [the discussions](https://github.com/container-interop/container-interop/issues?labels=ParentAwareContainerInterface)
+No new interface is currently discussed.
+
+##Recommended features
+
+- Delegate lookups
+[Meta Document](docs/delegate_lookup.md).
+Describes the ability for a container to delegate the lookup of its dependencies to a third-party container. This 
+feature is important to allow several containers working together in a single application.
 
 ## Compatible projects
 
 - [Acclimate](https://github.com/jeremeamia/acclimate-container)
 - [dcp-di](https://github.com/estelsmith/dcp-di)
+- [Mouf](https://mouf-php.com)
 - [Njasm Container](https://github.com/njasm/container)
 - [PHP-DI](http://php-di.org)
+- [PimpleInterop](https://github.com/moufmouf/pimple-interop)
 - [XStatic](https://github.com/jeremeamia/xstatic)
+
+### Projects providing the *delegate lookup* feature
+
+- [PHP-DI](http://php-di.org)
+- [PimpleInterop](https://github.com/moufmouf/pimple-interop)
 
 ## Workflow
 
