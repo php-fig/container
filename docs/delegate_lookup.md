@@ -21,14 +21,14 @@ The `ContainerInterface` is also enough if we want to have several containers si
 application. For instance, this is what the [CompositeContainer](https://github.com/jeremeamia/acclimate-container/blob/master/src/CompositeContainer.php) 
 class of [Acclimate](https://github.com/jeremeamia/acclimate-container) is designed for:
 
-[Side by side containers](images/side_by_side_containers.png)
+![Side by side containers](images/side_by_side_containers.png)
 
 However, an instance in container 1 cannot reference an instance in container 2.
 
 It would be better if an instance of container 1 could reference an instance in container 2,
 and the opposite should be true. 
 
-[Interoperating containers](images/interoperating_containers.png)
+![Interoperating containers](images/interoperating_containers.png)
 
 In the sample above, entry 1 in container 1 is referencing entry 4 in container 2.
 
@@ -67,7 +67,7 @@ Interestingly enough, the order in which containers are added in the composite c
 the first containers to be added in the composite container can "override" the entries of containers with
 lower priority.
 
-[Containers priority](images/priority.png)
+![Containers priority](images/priority.png)
 
 In the example above, "container 2" contains a controller "myController" and the controller is referencing an 
 "entityManager" entry. "Container 1" contains also an entry named "entityManager".
