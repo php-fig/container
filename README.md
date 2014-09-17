@@ -43,7 +43,7 @@ No new interface is currently discussed.
 
 ##Recommended features
 
-- Delegate lookups
+- *Delegate lookups*.
 [Meta Document](docs/delegate_lookup.md).
 Describes the ability for a container to delegate the lookup of its dependencies to a third-party container. This 
 feature is important to allow several containers working together in a single application.
