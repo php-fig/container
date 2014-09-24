@@ -52,7 +52,10 @@ If the entry is not part of the container, *false* should be returned.
  - Finally, the important part: if the entry we are fetching has dependencies,
 **instead** of perfoming the dependency lookup in the container, the lookup is performed on the *delegate container*.
 
-Warning! The lookup should be performed on the *delegate container* **only**, never on the container itself.
+Important! By default, the lookup should be performed on the delegate container **only**, not on the container itself.
+
+It is however allowed for containers to provide exception cases for special entries, and a way to lookup into 
+the same container (or another container) instead of the delegate container.
 
 ## Typical usage
 
