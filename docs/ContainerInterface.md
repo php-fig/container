@@ -31,7 +31,7 @@ Users of dependency injections containers (DIC) are refered to as `user`.
   is not known to the container. Two successive calls to `get` with the same
   identifier SHOULD return the same value. However, depending on the `implementor`
   design and/or `user` configuration, different values might be returned, so
-  `user` MUST NOT rely on getting the same value on 2 successive calls.
+  `user` SHOULD NOT rely on getting the same value on 2 successive calls.
   While `ContainerInterface` only defines one mandatory parameter in `get()`, implementations
   MAY accept additional optional parameters.
   
@@ -72,7 +72,7 @@ When a container is configured to use a delegate container for dependencies:
   (as requested by the `ContainerInterface`).
 - Calls to the `has` method should only return `true` if the entry is part of the container.
   If the entry is not part of the container, `false` should be returned.
-- Finally, the important part: if the entry we are fetching has dependencies, **instead** of perfoming 
+- If the fetched entry has dependencies, **instead** of performing 
   the dependency lookup in the container, the lookup is performed on the *delegate container*.
 
 Important! By default, the lookup SHOULD be performed on the delegate container **only**, not on the container itself.
