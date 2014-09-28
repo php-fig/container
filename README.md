@@ -2,10 +2,12 @@
 
 [![Latest Stable Version](https://poser.pugx.org/container-interop/container-interop/v/stable.png)](https://packagist.org/packages/container-interop/container-interop)
 
-The "container-interop" project attempts to achieve the interoperability of *container* objects (service locators,
-dependency injection containers, etc.) through discussions and trial, and by establishing common interfaces.
+*container-interop* tries to identify and standardize features in *container* objects (service locators,
+dependency injection containers, etc.) to achieve interopererability.
 
-If PHP projects that provide container implementations begin to adopt these common interfaces, then PHP
+Through discussions and trials, we try to create a standard, made of common interfaces but also recommendations. 
+
+If PHP projects that provide container implementations begin to adopt these common standards, then PHP
 applications and projects that use containers can depend on the common interfaces instead of specific
 implementations. This facilitates a high-level of interoperability and flexibility that allows users to consume
 *any* container implementation that can be adapted to these interfaces.
