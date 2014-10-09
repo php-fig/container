@@ -62,6 +62,7 @@ feature is important to allow several containers working together in a single ap
 
 ### Projects providing the *delegate lookup* feature
 
+- [Mouf](https://mouf-php.com)
 - [PHP-DI](http://php-di.org)
 - [PimpleInterop](https://github.com/moufmouf/pimple-interop)
 
