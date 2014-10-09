@@ -36,7 +36,7 @@ between minor versions.
 ### Available
 
 - [`ContainerInterface`](src/Interop/Container/ContainerInterface.php).
-[Meta Document](docs/ContainerInterface.md).
+[Description](docs/ContainerInterface.md) [Meta Document](docs/ContainerInterface-meta.md).
 Describes the interface of a container that exposes methods to read its entries.
 
 ### Proposed
