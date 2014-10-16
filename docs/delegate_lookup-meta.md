@@ -254,7 +254,7 @@ Are listed here all people that contributed in the discussions, by alphabetical 
 
 _**Note:** Order descending chronologically._
 
-- [Pull request on the delegate lookuyp feature](https://github.com/container-interop/container-interop/pull/20)
+- [Pull request on the delegate lookup feature](https://github.com/container-interop/container-interop/pull/20)
 - [Pull request on the interface idea](https://github.com/container-interop/container-interop/pull/8)
 - [Original article exposing the delegate lookup idea along many others](http://mouf-php.com/container-interop-whats-next)
 
