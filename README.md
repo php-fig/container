@@ -51,7 +51,7 @@ feature is important to allow several containers working together in a single ap
 
 - [Acclimate](https://github.com/jeremeamia/acclimate-container)
 - [dcp-di](https://github.com/estelsmith/dcp-di)
-- [Mouf](https://mouf-php.com)
+- [Mouf](http://mouf-php.com)
 - [Njasm Container](https://github.com/njasm/container)
 - [PHP-DI](http://php-di.org)
 - [PimpleInterop](https://github.com/moufmouf/pimple-interop)
