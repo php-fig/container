@@ -2,10 +2,12 @@
 
 [![Latest Stable Version](https://poser.pugx.org/container-interop/container-interop/v/stable.png)](https://packagist.org/packages/container-interop/container-interop)
 
-The "container-interop" project attempts to achieve the interoperability of *container* objects (service locators,
-dependency injection containers, etc.) through discussions and trial, and by establishing common interfaces.
+*container-interop* tries to identify and standardize features in *container* objects (service locators,
+dependency injection containers, etc.) to achieve interopererability.
 
-If PHP projects that provide container implementations begin to adopt these common interfaces, then PHP
+Through discussions and trials, we try to create a standard, made of common interfaces but also recommendations. 
+
+If PHP projects that provide container implementations begin to adopt these common standards, then PHP
 applications and projects that use containers can depend on the common interfaces instead of specific
 implementations. This facilitates a high-level of interoperability and flexibility that allows users to consume
 *any* container implementation that can be adapted to these interfaces.
@@ -29,25 +31,36 @@ You can install this package through Composer:
 The packages adheres to the [SemVer](http://semver.org/) specification, and there will be full backward compatibility
 between minor versions.
 
-## Interfaces
+## Interfaces and features
 
 ### Available
 
 - [`ContainerInterface`](src/Interop/Container/ContainerInterface.php).
-[Meta Document](docs/ContainerInterface.md).
+[Description](docs/ContainerInterface.md) [Meta Document](docs/ContainerInterface-meta.md).
 Describes the interface of a container that exposes methods to read its entries.
 
 ### Proposed
 
-- `ParentAwareContainerInterface`: Join [the discussions](https://github.com/container-interop/container-interop/issues?labels=ParentAwareContainerInterface)
+- [*Delegate lookups*](docs/delegate_lookup.md).
+[Meta Document](docs/delegate_lookup-meta.md).
+Describes the ability for a container to delegate the lookup of its dependencies to a third-party container. This 
+feature is important to allow several containers working together in a single application.
 
 ## Compatible projects
 
 - [Acclimate](https://github.com/jeremeamia/acclimate-container)
 - [dcp-di](https://github.com/estelsmith/dcp-di)
+- [Mouf](https://mouf-php.com)
 - [Njasm Container](https://github.com/njasm/container)
 - [PHP-DI](http://php-di.org)
+- [PimpleInterop](https://github.com/moufmouf/pimple-interop)
 - [XStatic](https://github.com/jeremeamia/xstatic)
+
+### Projects providing the *delegate lookup* feature
+
+- [Mouf](https://mouf-php.com)
+- [PHP-DI](http://php-di.org)
+- [PimpleInterop](https://github.com/moufmouf/pimple-interop)
 
 ## Workflow
 
