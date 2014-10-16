@@ -31,7 +31,7 @@ You can install this package through Composer:
 The packages adheres to the [SemVer](http://semver.org/) specification, and there will be full backward compatibility
 between minor versions.
 
-## Interfaces
+## Interfaces and features
 
 ### Available
 
@@ -41,12 +41,8 @@ Describes the interface of a container that exposes methods to read its entries.
 
 ### Proposed
 
-No new interface is currently discussed.
-
-##Recommended features
-
-- *Delegate lookups*.
-[Meta Document](docs/delegate_lookup.md).
+- [*Delegate lookups*](docs/delegate_lookup.md).
+[Meta Document](docs/delegate_lookup-meta.md).
 Describes the ability for a container to delegate the lookup of its dependencies to a third-party container. This 
 feature is important to allow several containers working together in a single application.
 
