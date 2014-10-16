@@ -130,11 +130,11 @@ a `setParentContainter` method:
 interface ParentAwareContainerInterface extends ReadableContainerInterface {
     /**
      * Sets the parent container associated to that container. This container will call
-     * the parent container as a fallback no entry is associated with the current identifier.
+     * the parent container to fetch dependencies.
      *
-     * @param ReadableContainerInterface $container
+     * @param ContainerInterface $container
      */
-    public function setParentContainer(ReadableContainerInterface $container);
+    public function setParentContainer(ContainerInterface $container);
 }
 ```
 
@@ -145,6 +145,41 @@ Then @mnapoli made a proposal for a "convention" [here](https://github.com/conta
 this idea was further discussed until all participants in the discussion agreed to remove the interface idea
 and replace it with a "standard" feature.
 
+**Pros:**
+
+If we had had an interface, we could have delegated the registration of the delegate/composite container to the
+the delegate/composite container itself.
+For instance:
+
+```php
+$containerA = new ContainerA();
+$containerB = new ContainerB();
+
+$compositeContainer = new CompositeContainer([$containerA, $containerB]);
+
+// The call to 'setParentContainer' is delegated to the CompositeContainer
+// It is not the responsibility of the user anymore.
+class CompositeContainer {
+	...
+	
+	public function __construct($containers) {
+		foreach ($containers as $container) {
+			if ($container instanceof ParentAwareContainerInterface) {
+				$container->setParentContainer($this);
+			}
+		}
+		...
+	}
+}
+
+``` 
+
+**Cons:**
+
+Cons have been extensively discussed [here](https://github.com/container-interop/container-interop/pull/8#issuecomment-51721777).
+Basically, forcing a setter into an interface is a bad idea. Setters are similar to constructor arguments,
+and it's a bad idea to standardize a constructor.
+This outweights the benefits of the interface.
 
 ### 4.4 Alternative: no exception case for delegate lookups
 
@@ -161,4 +196,65 @@ This was later replaced by:
 
 Exception cases have been allowed to avoid breaking dependencies with some services that must be provided
 by the container (on @njasm proposal). This was proposed here: https://github.com/container-interop/container-interop/pull/20#issuecomment-56597235
+
+### 4.5 Alternative: having one of the containers act as the composite container
+
+In real-life scenarios, we usually have a big framework (Symfony 2, Zend Framework 2, etc...) and we want to
+add another DI container to this container. Most of the time, the "big" framework will be responsible for
+creating the controller's instances, using it's own DI container. Until *container-interop* is fully adopted,
+the "big" framework will not be aware of the existence of a composite container that it should use instead
+of its own container.
+
+For this real-life use cases, @mnapoli and @moufmouf proposed to extend the "big" framework's DI container
+to make it act as a composite container.
+
+This has been discussed [here](https://github.com/container-interop/container-interop/pull/8#issuecomment-40367194) 
+and [here](http://mouf-php.com/container-interop-whats-next#solution4).
+
+This was implemented in Symfony 2 using:
+
+- [interop.symfony.di](https://github.com/thecodingmachine/interop.symfony.di/tree/v0.1.0)
+- [framework interop](https://github.com/mnapoli/framework-interop/)
+
+This was implemented in Silex using:
+
+- [interop.silex.di](https://github.com/thecodingmachine/interop.silex.di)
+
+Having a container act as the composite container is not part of the delegate lookup standard because it is
+simply a temporary design pattern used to make existing frameworks that do not support yet ContainerInterop
+play nice with other DI containers.
+
+
+5. Implementations
+------------------
+
+The following projects already implement the delegate lookup feature:
+
+- [Mouf](http://mouf-php.com), through the [`setDelegateLookupContainer` method](https://github.com/thecodingmachine/mouf/blob/2.0/src/Mouf/MoufManager.php#L2120)
+- [PHP-DI](http://php-di.org/), through the [`$wrapperContainer` parameter of the constructor](https://github.com/mnapoli/PHP-DI/blob/master/src/DI/Container.php#L72)
+- [pimple-interop](https://github.com/moufmouf/pimple-interop), through the [`$container` parameter of the constructor](https://github.com/moufmouf/pimple-interop/blob/master/src/Interop/Container/Pimple/PimpleInterop.php#L62)
+
+6. People
+---------
+
+Are listed here all people that contributed in the discussions, by alphabetical order:
+
+- [Alexandru Pătrănescu](https://github.com/drealecs)
+- [Ben Peachey](https://github.com/potherca)
+- [David Négrier](https://github.com/moufmouf)
+- [Jeremy Lindblom](https://github.com/jeremeamia)
+- [Marco Pivetta](https://github.com/Ocramius)
+- [Matthieu Napoli](https://github.com/mnapoli)
+- [Nelson J Morais](https://github.com/njasm)
+- [Phil Sturgeon](https://github.com/philsturgeon)
+- [Stephan Hochdörfer](https://github.com/shochdoerfer)
+
+7. Relevant Links
+-----------------
+
+_**Note:** Order descending chronologically._
+
+- [Pull request on the delegate lookuyp feature](https://github.com/container-interop/container-interop/pull/20)
+- [Pull request on the interface idea](https://github.com/container-interop/container-interop/pull/8)
+- [Original article exposing the delegate lookup idea along many others](http://mouf-php.com/container-interop-whats-next)
 
