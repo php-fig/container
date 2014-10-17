@@ -42,8 +42,8 @@ Describes the interface of a container that exposes methods to read its entries.
 
 ### Proposed
 
-- [*Delegate lookups*](https://github.com/container-interop/container-interop/blob/delegate-lookup/docs/delegate_lookup.md).
-[Meta Document](https://github.com/container-interop/container-interop/blob/delegate-lookup/docs/delegate_lookup-meta.md).
+- [*Delegate lookups*](https://github.com/container-interop/container-interop/blob/delegate-lookup/docs/Delegate-lookup.md).
+[Meta Document](https://github.com/container-interop/container-interop/blob/delegate-lookup/docs/Delegate-lookup-meta.md).
 Describes the ability for a container to delegate the lookup of its dependencies to a third-party container. This 
 feature is important to allow several containers working together in a single application. [Join the discussion](https://github.com/container-interop/container-interop/issues/23)
 
