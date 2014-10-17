@@ -1,5 +1,5 @@
-Container Interop: delegate lookup feature
-==========================================
+Delegate lookup feature
+=======================
 
 This document describes a standard for dependency injection containers.
 
