@@ -48,6 +48,8 @@ feature lets several containers work together in a single application.
 
 ## Compatible projects
 
+### Projects implementing `ContainerInterface`
+
 - [Acclimate](https://github.com/jeremeamia/acclimate-container)
 - [dcp-di](https://github.com/estelsmith/dcp-di)
 - [Mouf](https://mouf-php.com)
@@ -56,7 +58,7 @@ feature lets several containers work together in a single application.
 - [PimpleInterop](https://github.com/moufmouf/pimple-interop)
 - [XStatic](https://github.com/jeremeamia/xstatic)
 
-### Projects providing the *delegate lookup* feature
+### Projects implementing the *delegate lookup* feature
 
 - [Mouf](https://mouf-php.com)
 - [PHP-DI](http://php-di.org)
