@@ -24,6 +24,7 @@ Users of dependency injections containers (DIC) are refered to as `user`.
 
 In a dependency injection container, the container is used to fetch entries.
 Entries can have dependencies on other entries. Usually, these other entries are fetched by the container.
+
 The *delegate lookup* feature is the ability for a container to fetch dependencies in
 another container. In the rest of the document, the word "container" will reference the container
 implemented by the implementor. The word "delegate container" will reference the container we are
@@ -40,7 +41,7 @@ A container implementing the *delegate lookup* feature:
 
 When a container is configured to use a delegate container for dependencies:
 
-- Calls to the `get` method should only return an entry if the entry is part of the container. 
+- Calls to the `get` method should only return an entry if the entry is part of the container.
   If the entry is not part of the container, an exception should be thrown 
   (as requested by the [`ContainerInterface`](ContainerInterface.md)).
 - Calls to the `has` method should only return `true` if the entry is part of the container.
@@ -48,12 +49,12 @@ When a container is configured to use a delegate container for dependencies:
 - If the fetched entry has dependencies, **instead** of performing 
   the dependency lookup in the container, the lookup is performed on the *delegate container*.
 
-Important! By default, the lookup SHOULD be performed on the delegate container **only**, not on the container itself.
+Important: By default, the dependency lookups SHOULD be performed on the delegate container **only**, not on the container itself.
 
 It is however allowed for containers to provide exception cases for special entries, and a way to lookup 
 into the same container (or another container) instead of the delegate container.
 
-2. Package / Interface
+3. Package / Interface
 ----------------------
 
-This feature is not tied to any interface or package.
+This feature is not tied to any code, interface or package.

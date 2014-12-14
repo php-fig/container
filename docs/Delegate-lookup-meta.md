@@ -178,8 +178,7 @@ class CompositeContainer {
 
 Cons have been extensively discussed [here](https://github.com/container-interop/container-interop/pull/8#issuecomment-51721777).
 Basically, forcing a setter into an interface is a bad idea. Setters are similar to constructor arguments,
-and it's a bad idea to standardize a constructor.
-This outweights the benefits of the interface.
+and it's a bad idea to standardize a constructor: how the delegate container is configured into a container is an implementation detail. This outweights the benefits of the interface.
 
 ### 4.4 Alternative: no exception case for delegate lookups
 
