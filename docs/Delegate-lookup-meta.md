@@ -33,7 +33,7 @@ and the opposite should be true.
 
 ![Interoperating containers](images/interoperating_containers.png)
 
-In the sample above, entry 1 in container 1 is referencing entry 4 in container 2.
+In the sample above, entry 1 in container 1 is referencing entry 3 in container 2.
 
 3. Scope
 --------
