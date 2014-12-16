@@ -38,13 +38,14 @@ between minor versions.
 - [`ContainerInterface`](src/Interop/Container/ContainerInterface.php).
 [Description](docs/ContainerInterface.md) [Meta Document](docs/ContainerInterface-meta.md).
 Describes the interface of a container that exposes methods to read its entries.
-
-### Proposed
-
 - [*Delegate lookup feature*](docs/Delegate-lookup.md).
 [Meta Document](docs/Delegate-lookup-meta.md).
 Describes the ability for a container to delegate the lookup of its dependencies to a third-party container. This 
 feature lets several containers work together in a single application.
+
+### Proposed
+
+View open [request for comments](https://github.com/container-interop/container-interop/labels/RFC)
 
 ## Compatible projects
 
