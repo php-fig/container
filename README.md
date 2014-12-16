@@ -16,6 +16,7 @@ The work done in this project is not officially endorsed by the [PHP-FIG](http:/
 worked on by members of PHP-FIG and other good developers. We adhere to the spirit and ideals of PHP-FIG, and hope
 this project will pave the way for one or more future PSRs.
 
+
 ## Installation
 
 You can install this package through Composer:
@@ -53,7 +54,7 @@ View open [request for comments](https://github.com/container-interop/container-
 
 - [Acclimate](https://github.com/jeremeamia/acclimate-container)
 - [dcp-di](https://github.com/estelsmith/dcp-di)
-- [Mouf](https://mouf-php.com)
+- [Mouf](http://mouf-php.com)
 - [Njasm Container](https://github.com/njasm/container)
 - [PHP-DI](http://php-di.org)
 - [PimpleInterop](https://github.com/moufmouf/pimple-interop)
@@ -61,7 +62,7 @@ View open [request for comments](https://github.com/container-interop/container-
 
 ### Projects implementing the *delegate lookup* feature
 
-- [Mouf](https://mouf-php.com)
+- [Mouf](http://mouf-php.com)
 - [PHP-DI](http://php-di.org)
 - [PimpleInterop](https://github.com/moufmouf/pimple-interop)
 
