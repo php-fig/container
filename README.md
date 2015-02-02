@@ -6,7 +6,7 @@
 *container-interop* tries to identify and standardize features in *container* objects (service locators,
 dependency injection containers, etc.) to achieve interopererability.
 
-Through discussions and trials, we try to create a standard, made of common interfaces but also recommendations. 
+Through discussions and trials, we try to create a standard, made of common interfaces but also recommendations.
 
 If PHP projects that provide container implementations begin to adopt these common standards, then PHP
 applications and projects that use containers can depend on the common interfaces instead of specific
@@ -42,7 +42,7 @@ between minor versions.
 Describes the interface of a container that exposes methods to read its entries.
 - [*Delegate lookup feature*](docs/Delegate-lookup.md).
 [Meta Document](docs/Delegate-lookup-meta.md).
-Describes the ability for a container to delegate the lookup of its dependencies to a third-party container. This 
+Describes the ability for a container to delegate the lookup of its dependencies to a third-party container. This
 feature lets several containers work together in a single application.
 
 ### Proposed
@@ -66,6 +66,13 @@ View open [request for comments](https://github.com/container-interop/container-
 - [Mouf](http://mouf-php.com)
 - [PHP-DI](http://php-di.org)
 - [PimpleInterop](https://github.com/moufmouf/pimple-interop)
+
+### Middlewares implementing `ContainerInterface`
+
+- [Alias-Container](https://github.com/thecodingmachine/alias-container): add
+  aliases support to any container
+- [Prefixer-Container](https://github.com/thecodingmachine/prefixer-container):
+  dynamically prefix identifiers
 
 ## Workflow
 
