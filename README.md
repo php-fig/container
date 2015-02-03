@@ -53,7 +53,9 @@ View open [request for comments](https://github.com/container-interop/container-
 
 ### Projects implementing `ContainerInterface`
 
-- [Acclimate](https://github.com/jeremeamia/acclimate-container)
+- [Acclimate](https://github.com/jeremeamia/acclimate-container): Adapters for
+  Aura.Di, Laravel, Nette DI, Pimple, Symfony DI, ZF2 Service manager, ZF2
+  Dependency injection and any container using `ArrayAccess`
 - [dcp-di](https://github.com/estelsmith/dcp-di)
 - [Mouf](http://mouf-php.com)
 - [Njasm Container](https://github.com/njasm/container)
@@ -73,6 +75,14 @@ View open [request for comments](https://github.com/container-interop/container-
   aliases support to any container
 - [Prefixer-Container](https://github.com/thecodingmachine/prefixer-container):
   dynamically prefix identifiers
+
+### Projects using `ContainerInterface`
+
+- [Woohoo Labs. API Framework](https://github.com/woohoolabs/api-framework): a
+  micro-framework for writing APIs
+- [interop.silex.di](https://github.com/thecodingmachine/interop.silex.di): an
+  extension to [Silex](http://silex.sensiolabs.org/) that adds support for any
+  *container-interop* compatible container
 
 ## Workflow
 
