@@ -23,11 +23,7 @@ this project will pave the way for one or more future PSRs.
 You can install this package through Composer:
 
 ```json
-{
-    "require": {
-        "container-interop/container-interop": "~1.0"
-    }
-}
+composer require container-interop/container-interop
 ```
 
 The packages adheres to the [SemVer](http://semver.org/) specification, and there will be full backward compatibility
