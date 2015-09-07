@@ -52,7 +52,9 @@ View open [request for comments](https://github.com/container-interop/container-
 - [Acclimate](https://github.com/jeremeamia/acclimate-container): Adapters for
   Aura.Di, Laravel, Nette DI, Pimple, Symfony DI, ZF2 Service manager, ZF2
   Dependency injection and any container using `ArrayAccess`
+- [Aura.Di](http://auraphp.com/packages/Aura.Di/)
 - [dcp-di](https://github.com/estelsmith/dcp-di)
+- [League/Container](http://container.thephpleague.com/)
 - [Mouf](http://mouf-php.com)
 - [Njasm Container](https://github.com/njasm/container)
 - [PHP-DI](http://php-di.org)
@@ -61,6 +63,7 @@ View open [request for comments](https://github.com/container-interop/container-
 
 ### Projects implementing the *delegate lookup* feature
 
+- [League/Container](http://container.thephpleague.com/)
 - [Mouf](http://mouf-php.com)
 - [PHP-DI](http://php-di.org)
 - [PimpleInterop](https://github.com/moufmouf/pimple-interop)
@@ -77,8 +80,10 @@ View open [request for comments](https://github.com/container-interop/container-
 - [interop.silex.di](https://github.com/thecodingmachine/interop.silex.di): an
   extension to [Silex](http://silex.sensiolabs.org/) that adds support for any
   *container-interop* compatible container
+- [Slim v3](https://github.com/slimphp/Slim)
 - [Woohoo Labs. Harmony](https://github.com/woohoolabs/harmony): a flexible
   micro-framework
+- [zend-expressive](https://github.com/zendframework/zend-expressive)
 
 ## Workflow
 
