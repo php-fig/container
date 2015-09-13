@@ -60,6 +60,7 @@ View open [request for comments](https://github.com/container-interop/container-
 - [PHP-DI](http://php-di.org)
 - [PimpleInterop](https://github.com/moufmouf/pimple-interop)
 - [XStatic](https://github.com/jeremeamia/xstatic)
+- [Zend\ServiceManager](https://github.com/zendframework/zend-servicemanager)
 
 ### Projects implementing the *delegate lookup* feature
 
