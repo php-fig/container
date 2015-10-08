@@ -4,7 +4,7 @@
 [![Total Downloads](https://poser.pugx.org/container-interop/container-interop/downloads.svg)](https://packagist.org/packages/container-interop/container-interop)
 
 *container-interop* tries to identify and standardize features in *container* objects (service locators,
-dependency injection containers, etc.) to achieve interopererability.
+dependency injection containers, etc.) to achieve interoperability.
 
 Through discussions and trials, we try to create a standard, made of common interfaces but also recommendations.
 
