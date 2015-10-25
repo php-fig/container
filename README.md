@@ -87,6 +87,7 @@ View open [request for comments](https://github.com/container-interop/container-
 - [Woohoo Labs. Harmony](https://github.com/woohoolabs/harmony): a flexible
   micro-framework
 - [zend-expressive](https://github.com/zendframework/zend-expressive)
+- [Prophiler](https://github.com/fabfuel/prophiler)
 
 ## Workflow
 
