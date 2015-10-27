@@ -88,6 +88,7 @@ View open [request for comments](https://github.com/container-interop/container-
 - [Woohoo Labs. Harmony](https://github.com/woohoolabs/harmony): a flexible
   micro-framework
 - [zend-expressive](https://github.com/zendframework/zend-expressive)
+- [blast-facades](https://github.com/phpthinktank/blast-facades): Minimize complexity and represent dependencies as facades.
 
 ## Workflow
 
