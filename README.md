@@ -54,6 +54,7 @@ View open [request for comments](https://github.com/container-interop/container-
   Dependency injection and any container using `ArrayAccess`
 - [Aura.Di](http://auraphp.com/packages/Aura.Di/)
 - [dcp-di](https://github.com/estelsmith/dcp-di)
+- [Disco](https://github.com/bitexpert/disco)
 - [League/Container](http://container.thephpleague.com/)
 - [Mouf](http://mouf-php.com)
 - [Njasm Container](https://github.com/njasm/container)
