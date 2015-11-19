@@ -81,6 +81,7 @@ View open [request for comments](https://github.com/container-interop/container-
 
 ### Projects using `ContainerInterface`
 
+- [Adroit](https://github.com/bitexpert/adroit)
 - [interop.silex.di](https://github.com/thecodingmachine/interop.silex.di): an
   extension to [Silex](http://silex.sensiolabs.org/) that adds support for any
   *container-interop* compatible container
