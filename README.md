@@ -85,12 +85,14 @@ View open [request for comments](https://github.com/container-interop/container-
 - [interop.silex.di](https://github.com/thecodingmachine/interop.silex.di): an
   extension to [Silex](http://silex.sensiolabs.org/) that adds support for any
   *container-interop* compatible container
+- [prooph components](http://getprooph.org/): CQRS + ES Infrastructure
 - [Prophiler](https://github.com/fabfuel/prophiler)
 - [Slim v3](https://github.com/slimphp/Slim)
 - [Woohoo Labs. Harmony](https://github.com/woohoolabs/harmony): a flexible
   micro-framework
 - [zend-expressive](https://github.com/zendframework/zend-expressive)
 - [blast-facades](https://github.com/phpthinktank/blast-facades): Minimize complexity and represent dependencies as facades.
+
 
 ## Workflow
 
