@@ -60,6 +60,7 @@ View open [request for comments](https://github.com/container-interop/container-
 - [Njasm Container](https://github.com/njasm/container)
 - [PHP-DI](http://php-di.org)
 - [PimpleInterop](https://github.com/moufmouf/pimple-interop)
+- [Pimple3-ContainerInterop](https://github.com/Sam-Burns/pimple3-containerinterop) (using Pimple v3)
 - [SitePoint Container](https://github.com/sitepoint/Container)
 - [Unbox](https://github.com/mindplay-dk/unbox)
 - [XStatic](https://github.com/jeremeamia/xstatic)
