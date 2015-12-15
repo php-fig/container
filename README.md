@@ -62,6 +62,7 @@ View open [request for comments](https://github.com/container-interop/container-
 - [PimpleInterop](https://github.com/moufmouf/pimple-interop)
 - [Pimple3-ContainerInterop](https://github.com/Sam-Burns/pimple3-containerinterop) (using Pimple v3)
 - [SitePoint Container](https://github.com/sitepoint/Container)
+- [Ultra-Lite Container](https://github.com/ultra-lite/container)
 - [Unbox](https://github.com/mindplay-dk/unbox)
 - [XStatic](https://github.com/jeremeamia/xstatic)
 - [Zend\ServiceManager](https://github.com/zendframework/zend-servicemanager)
@@ -72,6 +73,7 @@ View open [request for comments](https://github.com/container-interop/container-
 - [Mouf](http://mouf-php.com)
 - [PHP-DI](http://php-di.org)
 - [PimpleInterop](https://github.com/moufmouf/pimple-interop)
+- [Ultra-Lite Container](https://github.com/ultra-lite/container)
 
 ### Middlewares implementing `ContainerInterface`
 
