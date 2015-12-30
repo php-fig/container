@@ -95,6 +95,7 @@ View open [request for comments](https://github.com/container-interop/container-
   micro-framework
 - [zend-expressive](https://github.com/zendframework/zend-expressive)
 - [blast-facades](https://github.com/phpthinktank/blast-facades): Minimize complexity and represent dependencies as facades.
+- [mindplay/walkway](https://github.com/mindplay-dk/walkway): a modular request router.
 
 
 ## Workflow
