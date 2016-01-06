@@ -2,6 +2,7 @@
     "name": "container-interop/container-interop",
     "type": "library",
     "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
+    "homepage": "https://github.com/container-interop/container-interop",
     "license": "MIT",
     "autoload": {
         "psr-4": {
