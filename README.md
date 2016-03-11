@@ -66,6 +66,7 @@ View open [request for comments](https://github.com/container-interop/container-
 - [Unbox](https://github.com/mindplay-dk/unbox)
 - [XStatic](https://github.com/jeremeamia/xstatic)
 - [Zend\ServiceManager](https://github.com/zendframework/zend-servicemanager)
+- [Zit](https://github.com/inxilpro/Zit)
 
 ### Projects implementing the *delegate lookup* feature
 
