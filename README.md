@@ -83,6 +83,7 @@ View open [request for comments](https://github.com/container-interop/container-
   aliases support to any container
 - [Prefixer-Container](https://github.com/thecodingmachine/prefixer-container):
   dynamically prefix identifiers
+- [Lazy-Container](https://github.com/snapshotpl/lazy-container): lazy services
 
 ### Projects using `ContainerInterface`
 
