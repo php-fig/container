@@ -63,6 +63,7 @@ View open [request for comments](https://github.com/container-interop/container-
 - [PimpleInterop](https://github.com/moufmouf/pimple-interop)
 - [Pimple3-ContainerInterop](https://github.com/Sam-Burns/pimple3-containerinterop) (using Pimple v3)
 - [SitePoint Container](https://github.com/sitepoint/Container)
+- [Thruster Container](https://github.com/ThrusterIO/container) (PHP7 only)
 - [Ultra-Lite Container](https://github.com/ultra-lite/container)
 - [Unbox](https://github.com/mindplay-dk/unbox)
 - [XStatic](https://github.com/jeremeamia/xstatic)
