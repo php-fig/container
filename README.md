@@ -56,6 +56,7 @@ View open [request for comments](https://github.com/container-interop/container-
 - [Burlap](https://github.com/codeeverything/burlap)
 - [dcp-di](https://github.com/estelsmith/dcp-di)
 - [Disco](https://github.com/bitexpert/disco)
+- [InDI](https://github.com/idealogica/indi)
 - [League/Container](http://container.thephpleague.com/)
 - [Mouf](http://mouf-php.com)
 - [Njasm Container](https://github.com/njasm/container)
@@ -72,6 +73,7 @@ View open [request for comments](https://github.com/container-interop/container-
 
 ### Projects implementing the *delegate lookup* feature
 
+- [InDI](https://github.com/idealogica/indi)
 - [League/Container](http://container.thephpleague.com/)
 - [Mouf](http://mouf-php.com)
 - [PHP-DI](http://php-di.org)
