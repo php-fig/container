@@ -73,6 +73,7 @@ View open [request for comments](https://github.com/container-interop/container-
 
 ### Projects implementing the *delegate lookup* feature
 
+- [Burlap](https://github.com/codeeverything/burlap)
 - [InDI](https://github.com/idealogica/indi)
 - [League/Container](http://container.thephpleague.com/)
 - [Mouf](http://mouf-php.com)
