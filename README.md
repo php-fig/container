@@ -53,6 +53,7 @@ View open [request for comments](https://github.com/container-interop/container-
   Aura.Di, Laravel, Nette DI, Pimple, Symfony DI, ZF2 Service manager, ZF2
   Dependency injection and any container using `ArrayAccess`
 - [Aura.Di](http://auraphp.com/packages/Aura.Di/)
+- [auryn-container-interop](https://github.com/elazar/auryn-container-interop)
 - [Burlap](https://github.com/codeeverything/burlap)
 - [dcp-di](https://github.com/estelsmith/dcp-di)
 - [Disco](https://github.com/bitexpert/disco)
