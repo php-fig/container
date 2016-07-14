@@ -102,7 +102,6 @@ View open [request for comments](https://github.com/container-interop/container-
 | [mindplay/walkway](https://github.com/mindplay-dk/walkway): a modular request router | ![](https://img.shields.io/packagist/dt/mindplay/walkway.svg) |
 | [mindplay/middleman](https://github.com/mindplay-dk/middleman): minimalist PSR-7 middleware dispatcher | ![](https://img.shields.io/packagist/dt/mindplay/middleman.svg) |
 | [PHP-DI/Invoker](https://github.com/PHP-DI/Invoker): extensible and configurable invoker/dispatcher | ![](https://img.shields.io/packagist/dt/php-di/invoker.svg) |
-| [prooph components](http://getprooph.org/): CQRS + ES Infrastructure | ![](https://img.shields.io/packagist/dt/prooph/processing.svg) |
 | [Prophiler](https://github.com/fabfuel/prophiler) | ![](https://img.shields.io/packagist/dt/fabfuel/prophiler.svg) |
 | [Silly](https://github.com/mnapoli/silly): CLI micro-framework | ![](https://img.shields.io/packagist/dt/mnapoli/silly.svg) |
 | [Slim v3](https://github.com/slimphp/Slim) | ![](https://img.shields.io/packagist/dt/slim/slim.svg) |
