@@ -101,6 +101,7 @@ View open [request for comments](https://github.com/container-interop/container-
   *container-interop* compatible container
 - [mindplay/walkway](https://github.com/mindplay-dk/walkway): a modular request router.
 - [mindplay/middleman](https://github.com/mindplay-dk/middleman): minimalist PSR-7 middleware dispatcher.
+- [PHP-DI/Invoker](https://github.com/PHP-DI/Invoker): extensible and configurable invoker/dispatcher
 - [prooph components](http://getprooph.org/): CQRS + ES Infrastructure
 - [Prophiler](https://github.com/fabfuel/prophiler)
 - [Slim v3](https://github.com/slimphp/Slim)
