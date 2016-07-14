@@ -96,21 +96,21 @@ View open [request for comments](https://github.com/container-interop/container-
 
 ### Projects using `ContainerInterface`
 
-- [Adroit](https://github.com/bitexpert/adroit)
-- [blast-facades](https://github.com/phpthinktank/blast-facades): Minimize complexity and represent dependencies as facades.
-- [interop.silex.di](https://github.com/thecodingmachine/interop.silex.di): an
-  extension to [Silex](http://silex.sensiolabs.org/) that adds support for any
-  *container-interop* compatible container
-- [mindplay/walkway](https://github.com/mindplay-dk/walkway): a modular request router.
-- [mindplay/middleman](https://github.com/mindplay-dk/middleman): minimalist PSR-7 middleware dispatcher.
-- [PHP-DI/Invoker](https://github.com/PHP-DI/Invoker): extensible and configurable invoker/dispatcher
-- [prooph components](http://getprooph.org/): CQRS + ES Infrastructure
-- [Prophiler](https://github.com/fabfuel/prophiler)
-- [Silly](https://github.com/mnapoli/silly): CLI micro-framework
-- [Slim v3](https://github.com/slimphp/Slim)
-- [Woohoo Labs. Harmony](https://github.com/woohoolabs/harmony): a flexible
-  micro-framework
-- [zend-expressive](https://github.com/zendframework/zend-expressive)
+The list below contains only a sample of all the projects consuming `ContainerInterface`. For a more complete list have a look [here](http://packanalyst.com/class?q=Interop%5CContainer%5CContainerInterface).
+
+| | Downloads |
+| --- | --- |
+| [Adroit](https://github.com/bitexpert/adroit) | ![](https://img.shields.io/packagist/dt/bitexpert/adroit.svg) |
+| [blast-facades](https://github.com/phpthinktank/blast-facades): Minimize complexity and represent dependencies as facades. | ![](https://img.shields.io/packagist/dt/blast/facades.svg) |
+| [interop.silex.di](https://github.com/thecodingmachine/interop.silex.di): an extension to [Silex](http://silex.sensiolabs.org/) that adds support for any *container-interop* compatible container | ![](https://img.shields.io/packagist/dt/mouf/interop.silex.di.svg) |
+| [mindplay/walkway](https://github.com/mindplay-dk/walkway): a modular request router | ![](https://img.shields.io/packagist/dt/mindplay/walkway.svg) |
+| [mindplay/middleman](https://github.com/mindplay-dk/middleman): minimalist PSR-7 middleware dispatcher | ![](https://img.shields.io/packagist/dt/mindplay/middleman.svg) |
+| [PHP-DI/Invoker](https://github.com/PHP-DI/Invoker): extensible and configurable invoker/dispatcher | ![](https://img.shields.io/packagist/dt/php-di/invoker.svg) |
+| [Prophiler](https://github.com/fabfuel/prophiler) | ![](https://img.shields.io/packagist/dt/fabfuel/prophiler.svg) |
+| [Silly](https://github.com/mnapoli/silly): CLI micro-framework | ![](https://img.shields.io/packagist/dt/mnapoli/silly.svg) |
+| [Slim v3](https://github.com/slimphp/Slim) | ![](https://img.shields.io/packagist/dt/slim/slim.svg) |
+| [Woohoo Labs. Harmony](https://github.com/woohoolabs/harmony): a flexible micro-framework | ![](https://img.shields.io/packagist/dt/woohoolabs/harmony.svg) |
+| [zend-expressive](https://github.com/zendframework/zend-expressive) | ![](https://img.shields.io/packagist/dt/zendframework/zend-expressive.svg) |
 
 
 ## Workflow
