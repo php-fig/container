@@ -94,6 +94,8 @@ View open [request for comments](https://github.com/container-interop/container-
 
 ### Projects using `ContainerInterface`
 
+The list below contains only a sample of all the projects consuming `ContainerInterface`. For a more complete list have a look [here](http://packanalyst.com/class?q=Interop%5CContainer%5CContainerInterface).
+
 | | Downloads |
 | --- | --- |
 | [Adroit](https://github.com/bitexpert/adroit) | ![](https://img.shields.io/packagist/dt/bitexpert/adroit.svg) |
