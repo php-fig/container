@@ -104,6 +104,7 @@ View open [request for comments](https://github.com/container-interop/container-
 - [PHP-DI/Invoker](https://github.com/PHP-DI/Invoker): extensible and configurable invoker/dispatcher
 - [prooph components](http://getprooph.org/): CQRS + ES Infrastructure
 - [Prophiler](https://github.com/fabfuel/prophiler)
+- [Silly](https://github.com/mnapoli/silly): CLI micro-framework
 - [Slim v3](https://github.com/slimphp/Slim)
 - [Woohoo Labs. Harmony](https://github.com/woohoolabs/harmony): a flexible
   micro-framework
