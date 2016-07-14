@@ -95,18 +95,18 @@ View open [request for comments](https://github.com/container-interop/container-
 ### Projects using `ContainerInterface`
 
 - [Adroit](https://github.com/bitexpert/adroit)
+- [blast-facades](https://github.com/phpthinktank/blast-facades): Minimize complexity and represent dependencies as facades.
 - [interop.silex.di](https://github.com/thecodingmachine/interop.silex.di): an
   extension to [Silex](http://silex.sensiolabs.org/) that adds support for any
   *container-interop* compatible container
+- [mindplay/walkway](https://github.com/mindplay-dk/walkway): a modular request router.
+- [mindplay/middleman](https://github.com/mindplay-dk/middleman): minimalist PSR-7 middleware dispatcher.
 - [prooph components](http://getprooph.org/): CQRS + ES Infrastructure
 - [Prophiler](https://github.com/fabfuel/prophiler)
 - [Slim v3](https://github.com/slimphp/Slim)
 - [Woohoo Labs. Harmony](https://github.com/woohoolabs/harmony): a flexible
   micro-framework
 - [zend-expressive](https://github.com/zendframework/zend-expressive)
-- [blast-facades](https://github.com/phpthinktank/blast-facades): Minimize complexity and represent dependencies as facades.
-- [mindplay/walkway](https://github.com/mindplay-dk/walkway): a modular request router.
-- [mindplay/middleman](https://github.com/mindplay-dk/middleman): minimalist PSR-7 middleware dispatcher.
 
 
 ## Workflow
