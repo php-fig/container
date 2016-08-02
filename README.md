@@ -52,11 +52,10 @@ View open [request for comments](https://github.com/container-interop/container-
 - [Acclimate](https://github.com/jeremeamia/acclimate-container): Adapters for
   Aura.Di, Laravel, Nette DI, Pimple, Symfony DI, ZF2 Service manager, ZF2
   Dependency injection and any container using `ArrayAccess`
-- [Aura.Di](http://auraphp.com/packages/Aura.Di/)
+- [Aura.Di](https://github.com/auraphp/Aura.Di)
 - [auryn-container-interop](https://github.com/elazar/auryn-container-interop)
 - [Burlap](https://github.com/codeeverything/burlap)
 - [Chernozem](https://github.com/pyrsmk/Chernozem)
-- [dcp-di](https://github.com/estelsmith/dcp-di)
 - [Disco](https://github.com/bitexpert/disco)
 - [InDI](https://github.com/idealogica/indi)
 - [League/Container](http://container.thephpleague.com/)
