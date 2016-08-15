@@ -1,5 +1,6 @@
 {
     "name": "psr/container",
+    "type": "library",
     "description": "Common Container Interface (PHP FIG PSR-11)",
     "keywords": ["psr", "psr-11", "container", "container-interop", "container-interface"],
     "homepage": "https://github.com/php-fig/container",
