@@ -1,12 +1,12 @@
 {
-    "name": "container-interop/container-interop",
+    "name": "psr/container",
     "type": "library",
     "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-    "homepage": "https://github.com/container-interop/container-interop",
+    "homepage": "https://github.com/php-fig/container",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Interop\\Container\\": "src/Interop/Container/"
+            "Psr\\Container\\": "src/"
         }
     }
 }

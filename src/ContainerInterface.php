@@ -3,10 +3,10 @@
  * @license http://www.opensource.org/licenses/mit-license.php MIT (see the LICENSE file)
  */
 
-namespace Interop\Container;
+namespace Psr\Container;
 
-use Interop\Container\Exception\ContainerException;
-use Interop\Container\Exception\NotFoundException;
+use Psr\Container\Exception\ContainerException;
+use Psr\Container\Exception\NotFoundException;
 
 /**
  * Describes the interface of a container that exposes methods to read its entries.
