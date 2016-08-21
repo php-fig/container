@@ -5,7 +5,6 @@
 
 namespace Psr\Container;
 
-use Psr\Container\Exception\ContainerException;
 use Psr\Container\Exception\NotFoundException;
 
 /**
@@ -19,7 +18,7 @@ interface ContainerInterface
      * @param string $id Identifier of the entry to look for.
      *
      * @throws NotFoundException  No entry was found for this identifier.
-     * @throws ContainerException Error while retrieving the entry.
+     * @throws \Exception Error while retrieving the entry.
      *
      * @return mixed Entry.
      */
