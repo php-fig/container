@@ -5,9 +5,6 @@
 
 namespace Psr\Container;
 
-use Psr\Container\Exception\ContainerException;
-use Psr\Container\Exception\NotFoundException;
-
 /**
  * Describes the interface of a container that exposes methods to read its entries.
  */
