@@ -31,6 +31,8 @@ interface ContainerInterface
      *
      * @param string $id Identifier of the entry to look for.
      *
+     * @throws ContainerExceptionInterface Error while checking availability for the entry.
+     *
      * @return boolean
      */
     public function has($id);
