@@ -1,5 +1,11 @@
-# PSR Container
+Container interface
+==============
 
-This repository holds all interfaces/classes/traits related to [PSR-11](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-11-container.md).
+This repository holds all interfaces and utility code related to [PSR-11 (Container interface)][psr-link].
 
-Note that this is not a container implementation of its own. See the specification for more details.
+Note that this is not a Container implementation of its own. It is merely abstractions that describe the components of a Container.
+
+You can see the [specification][psr-link] for more details and find implementations of the specification by looking for packages providing the [psr/container][implementation-link] virtual package.
+
+[psr-link]: https://www.php-fig.org/psr/psr-11/
+[implementation-link]: https://packagist.org/providers/psr/container-implementation
