@@ -17,6 +17,13 @@
     "autoload": {
         "psr-4": {
             "Psr\\Container\\": "src/"
-        }
+        },
+        "files": ["src/container-interop-replacements.php"]
+    },
+    "replace": {
+        "container-interop/container-interop": "^1.2.0"
+    },
+    "conflict": {
+        "container-interop/container-interop": "<1.2.0"
     }
 }
