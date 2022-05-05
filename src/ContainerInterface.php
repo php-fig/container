@@ -6,6 +6,8 @@ namespace Psr\Container;
 
 /**
  * Describes the interface of a container that exposes methods to read its entries.
+ *
+ * @template T of mixed
  */
 interface ContainerInterface
 {
@@ -17,7 +19,7 @@ interface ContainerInterface
      * @throws NotFoundExceptionInterface  No entry was found for **this** identifier.
      * @throws ContainerExceptionInterface Error while retrieving the entry.
      *
-     * @return mixed Entry.
+     * @return T
      */
     public function get(string $id);
 
