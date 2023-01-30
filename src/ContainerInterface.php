@@ -16,10 +16,8 @@ interface ContainerInterface
      *
      * @throws NotFoundExceptionInterface  No entry was found for **this** identifier.
      * @throws ContainerExceptionInterface Error while retrieving the entry.
-     *
-     * @return mixed Entry.
      */
-    public function get(string $id);
+    public function get(string $id): mixed;
 
     /**
      * Returns true if the container can return an entry for the given identifier.
@@ -29,8 +27,6 @@ interface ContainerInterface
      * It does however mean that `get($id)` will not throw a `NotFoundExceptionInterface`.
      *
      * @param string $id Identifier of the entry to look for.
-     *
-     * @return bool
      */
     public function has(string $id): bool;
 }
