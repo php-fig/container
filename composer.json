@@ -11,6 +11,9 @@
             "homepage": "https://www.php-fig.org/"
         }
     ],
+    "support": {
+        "source": "https://github.com/php-fig/container"
+    },
     "require": {
         "php": ">=7.4.0"
     },
