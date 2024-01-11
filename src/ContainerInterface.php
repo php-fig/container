@@ -14,7 +14,7 @@ interface ContainerInterface
      *
      * @template T of mixed
      *
-     * @param T|string $id Identifier of the entry to look for.
+     * @param class-string<T>|string $id Identifier of the entry to look for.
      *
      * @throws NotFoundExceptionInterface  No entry was found for **this** identifier.
      * @throws ContainerExceptionInterface Error while retrieving the entry.
