@@ -12,7 +12,7 @@ interface ContainerInterface
     /**
      * Finds an entry of the container by its identifier and returns it.
      *
-     * @template T of mixed
+     * @template T of object
      *
      * @param class-string<T>|string $id Identifier of the entry to look for.
      *
