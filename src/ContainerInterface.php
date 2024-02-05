@@ -19,7 +19,7 @@ interface ContainerInterface
      * @throws NotFoundExceptionInterface  No entry was found for **this** identifier.
      * @throws ContainerExceptionInterface Error while retrieving the entry.
      *
-     * @return T|mixed Entry.
+     * @return ($id is class-string<T> ? T : mixed) Entry.
      */
     public function get(string $id);
 
