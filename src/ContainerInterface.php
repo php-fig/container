@@ -17,6 +17,9 @@ interface ContainerInterface
      * @throws NotFoundExceptionInterface  No entry was found for **this** identifier.
      * @throws ContainerExceptionInterface Error while retrieving the entry.
      *
+     * @psalm-template T
+     * @psalm-param class-string<T>|string $serviceName
+     * @psalm-return ($serviceName is class-string<T> ? T : mixed)
      * @return mixed Entry.
      */
     public function get(string $id);
